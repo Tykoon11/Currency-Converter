@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Titan+One&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #edebeb !important;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#mainContainer {
+  height: 650px;
+  width: 350px;
+  background-color: #183052;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  box-shadow: 3px 3px 29px 14px #888888;
+}
+p {
+  font-size: 2.3vw;
+  width: 10em;
+  height: 4em;
+  color: #00d998;
+  border-radius: 0.3em;
+  padding: 0.3em 0.5em 0.5em 0.5em;
+}
+input {
+  border: none;
+  border-radius: 0.3em 0 0 0.3em;
+  padding: 0 0.5rem;
+  width: 225px;
+  height: 4rem;
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+  color: #016de2;
+}
+select {
+  border-radius: 0 0.3em 0.3em 0;
+  border: none;
+  padding: 0.4em 0.4em 0.4em 0.4em;
+  background-color: #00d998;
+  cursor: pointer;
+  width: 4.5em;
+  height: 4em;
+  color: white;
+  font-size: 2rem;
+}
+input {
+  background-color: #e6e9eb;
+}
+.inputDiv {
+  margin-left: 26px;
+}
+.exchange {
+  margin: 40px 10px 10px 140px;
+  cursor: pointer;
+}
+h4 {
+  margin: 25px;
+}
+.fa-line-chart {
+  color: #016de2;
+  font-size: 40px;
+  margin: "0 0 0 20px";
+  padding: 10px;
+  border-radius: 50%;
+  border: 3px solid red;
+  background-color: #e6e9eb;
+}
+#chart {
+  margin-left: 250px;
+}
+.inputDiv :hover {
+  transform: scale(1.1);
+}
+#chart :hover {
+  transform: scale(1.1);
+}
