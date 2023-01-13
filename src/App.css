@@ -28,7 +28,7 @@ p {
   height: 4em;
   color: #00d998;
   border-radius: 0.3em;
-  padding: 0.3em 0.5em 0.5em 0.5em;
+  padding: 0.3em 0.5em 0.5em 0.7em;
 }
 input {
   border: none;
@@ -48,11 +48,11 @@ select {
   cursor: pointer;
   width: 4.5em;
   height: 4em;
-  color: white;
+  color: #e6e9eb;
   font-size: 2rem;
 }
 input {
-  background-color: #e6e9eb;
+  background-color: white;
 }
 .inputDiv {
   margin-left: 26px;
@@ -70,7 +70,7 @@ h4 {
   margin: "0 0 0 20px";
   padding: 10px;
   border-radius: 50%;
-  border: 3px solid red;
+  border: 3px solid rgb(179, 27, 27);
   background-color: #e6e9eb;
 }
 #chart {
