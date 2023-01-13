@@ -28,7 +28,7 @@ p {
   height: 4em;
   color: #00d998;
   border-radius: 0.3em;
-  padding: 0.3em 0.5em 0.5em 0.7em;
+  padding: 0.3em 0.5em 0.5em 0.5em;
 }
 input {
   border: none;
@@ -38,7 +38,7 @@ input {
   height: 4rem;
   font-size: 3rem;
   font-family: "Rubik", sans-serif;
-  color: #016de2;
+  color: #016de6;
 }
 select {
   border-radius: 0 0.3em 0.3em 0;
@@ -74,11 +74,11 @@ h4 {
   background-color: #e6e9eb;
 }
 #chart {
-  margin-left: 250px;
+  margin-left: 260px;
 }
 .inputDiv :hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
 }
 #chart :hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
 }
