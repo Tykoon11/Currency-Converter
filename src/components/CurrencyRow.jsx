@@ -11,7 +11,12 @@ function CurrencyRow({
   return (
     <div>
       <div className="inputDiv">
-        <input type="number" value={amount} onChange={onChangeAmount} />
+        <input
+          type="number"
+          value={amount}
+          onChange={onChangeAmount}
+          aria-label="number"
+        />
 
         <select value={selectedCurrency} onChange={onChangeCurrency}>
           {currencyOptions.map((i) => (
